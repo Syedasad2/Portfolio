@@ -14,19 +14,17 @@ const NavBar = () => {
       <div className="flex flex-wrap md:flex-nowrap items-center justify-between py-3 px-4 md:px-8 ">
         {/* Logo */}
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 1, delay: 0.2 }}
-          whileHover={{ scale: 1.05 }}
-          className="flex items-center"
-        >
-          <img
-            className="h-10 w-10 rounded-full object-cover cursor-pointer transition duration-300 hover:drop-shadow-lg"
-            src={logo}
-            alt="logo"
-            onClick={() => window.location.reload()}
-          />
-        </motion.div>
+  animate={{ opacity: 1, x: 0 }}
+  initial={{ opacity: 0, x: -100 }}
+  transition={{ duration: 1, delay: 0.2 }}
+  className="flex items-center"
+>
+  <img
+    src={logo}
+    alt="logo"
+    className="h-10 w-10 object-contain bg-white rounded-full"
+  />
+</motion.div>
 
         {/* Nav Links */}
         <motion.div
@@ -145,3 +143,5 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+
