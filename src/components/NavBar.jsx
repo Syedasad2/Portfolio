@@ -22,7 +22,8 @@ const NavBar = () => {
   <img
     src={logo}
     alt="logo"
-    className="h-10 w-10 object-contain bg-white rounded-full"
+    onClick={() => window.location.reload()}
+    className="h-10 w-10 object-contain bg-white rounded-full cursor-pointer"
   />
 </motion.div>
 
