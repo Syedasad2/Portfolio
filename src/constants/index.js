@@ -11,7 +11,7 @@ I enjoy working in collaborative environments, constantly expanding my technical
 
 export const EXPERIENCES = [
   {
-    year: "Oct-2023 to Dec-2023",
+    year: "Jan-2025 to April-2025",
     role: "Front-end Developer(Internship)",
     company: "CodeAlpha",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, TailwindCSS and Bootstrap. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
